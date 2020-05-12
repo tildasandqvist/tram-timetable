@@ -1,0 +1,299 @@
+body {
+  background-color: #02526e;
+}
+
+.maincontainer {
+  color: rgb(214, 214, 214);
+  text-align: center;
+}
+
+.huvudrubrik {
+  font-size: 40px;
+  font-family: 'Roboto Condensed',
+    sans-serif;
+  margin-left: 360px;
+
+}
+
+.loggavasttrafik {
+  height: 40px;
+}
+
+.box {
+  margin: 0px 350px 20px 350px;
+  padding-bottom: 150px;
+}
+
+
+p {
+  text-align: left;
+  position: relative;
+  left: 80px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.nummerlogga {
+  height: 50px;
+  margin-right: 30px;
+}
+
+.footertext {
+  font-size: 20px;
+  margin-left: 650px;
+}
+
+#vagninfoid {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.vagnclass {
+  font-size: 20px;
+  width: 25%;
+  font-weight: 700;
+}
+
+.riktningclass {
+  font-size: 20px;
+  width: 25%;
+}
+
+.tidclass {
+  font-size: 20px;
+  width: 25%;
+  font-weight: 700;
+}
+
+.trackclass {
+  font-size: 20px;
+  width: 25%;
+}
+
+.h {
+  margin-bottom: 40px;
+}
+
+
+#rubrikvagn {
+  font-size: 25px;
+  width: 25%;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 185px;
+  margin-top: 25px;
+
+}
+
+#rubrikvagn2 {
+  font-size: 25px;
+  width: 25%;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 55px;
+  margin-bottom: 50px;
+}
+
+#rubrikvagn3 {
+  font-size: 25px;
+  width: 25%;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+#rubrikvagn4 {
+  font-size: 25px;
+  width: 25%;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 1308px) {
+  body {
+    margin: auto;
+    width: auto;
+  }
+
+  .box {
+    margin: 10px;
+
+  }
+
+  .huvudrubrik {
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 680px) {
+  body {
+    margin: auto;
+    width: auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  #rubrikvagn {
+    font-size: 24px;
+    margin-left: 18px;
+  }
+
+  #rubrikvagn2 {
+    font-size: 24px;
+    margin-left: 18px;
+  }
+
+  #rubrikvagn3 {
+    font-size: 24px;
+    margin-left: 18px;
+  }
+
+  #rubrikvagn4 {
+    font-size: 24px;
+    margin-left: 18px;
+  }
+
+  .vagnclass {
+    font-size: 18px;
+    width: 25%;
+    font-weight: 700;
+  }
+
+  .riktningclass {
+    font-size: 18px;
+    width: 25%;
+  }
+
+  .tidclass {
+    font-size: 18px;
+    width: 25%;
+    font-weight: 700;
+  }
+
+  .trackclass {
+    font-size: 18px;
+    width: 25%;
+  }
+
+  .nummerlogga {
+    height: 50px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 556px) {
+  body {
+    margin: auto;
+    width: auto;
+  }
+
+  #rubrikvagn {
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: 20px;
+  }
+
+  #rubrikvagn2 {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+
+  #rubrikvagn3 {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+
+  #rubrikvagn4 {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+
+  .vagnclass {
+    font-size: 16px;
+    width: auto;
+    font-weight: 700;
+    margin: 10px;
+  }
+
+  .riktningclass {
+    font-size: 16px;
+    width: auto;
+    margin: 10px;
+  }
+
+  .tidclass {
+    font-size: 16px;
+    width: auto;
+    font-weight: 700;
+    margin: 10px;
+  }
+
+  .trackclass {
+    font-size: 16px;
+    width: auto;
+    margin: 10px 40px;
+  }
+
+  .nummerlogga {
+    height: 35px;
+  }
+
+
+  p {
+    text-align: auto;
+    position: relative;
+    left: 0px;
+  }
+}
+
+
+@media (max-width: 452px) {
+  .vagnclass {
+    font-size: 16px;
+    width: auto;
+    font-weight: 700;
+    margin: 6px;
+  }
+
+  .riktningclass {
+    font-size: 16px;
+    width: auto;
+    margin: 6px;
+  }
+
+  .tidclass {
+    font-size: 16px;
+    width: auto;
+    font-weight: 700;
+    margin: 6px;
+  }
+
+  .trackclass {
+    font-size: 16px;
+    width: auto;
+    margin: 6px 20px;
+  }
+
+  .nummerlogga {
+    height: 35px;
+  }
